@@ -20,7 +20,7 @@ public class KthSmallestElement {
 	public static int solution(List<int []> matrix, int k){
 		int width = matrix.size();
 		assert 1 <= k && k <= width * width: "The k must be in 1 and width * width";
-		
+		Integer point = (int) Math.sqrt(k);
 		
 		return 0;
 	}
